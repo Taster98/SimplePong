@@ -203,12 +203,12 @@ void logicPart(){
         ySpeedBall = -ySpeedBall;
     }
     if(ball.getGlobalBounds().intersects(firstPad.getGlobalBounds())){
-        xSpeedBall = -xSpeedBall;
         hit.play();
+        xSpeedBall = -xSpeedBall;
     }
     if(ball.getGlobalBounds().intersects(secondPad.getGlobalBounds())){
-        xSpeedBall = -xSpeedBall;
         hit.play();
+        xSpeedBall = -xSpeedBall;
     }
 
     if(ball.getPosition().x < 25){
