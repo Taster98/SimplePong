@@ -7,7 +7,7 @@ This is a very simple C++ based 2d pong game. It is very simple, and its only pu
 # Installs
 The game is only for Linux platform. You can install it by running a terminal and just type in:
 ```
-make install
+make
 ```
 And to run it:
 ```
